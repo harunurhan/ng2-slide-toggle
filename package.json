@@ -1,6 +1,8 @@
 {
   "name": "ng2-slide-toggle",
   "version": "1.0.1",
+  "author": "Harun Urhan <harun.urhan@cern.ch>",
+  "homepage": "https://github.com/harunurhan/ng2-slide-toggle",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -59,5 +61,12 @@
     "tslint": "^4.3.0",
     "typescript": "~2.0.3",
     "zone.js": "^0.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/harunurhan/ng2-slide-toggle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harunurhan/ng2-slide-toggle.git"
   }
 }
