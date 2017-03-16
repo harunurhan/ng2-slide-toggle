@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "baseUrl": "staging",
+    "declaration": true,
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "paths": {
+      "@angular/core": [
+        "node_modules/@angular/core"
+      ],
+      "@angular/common": [
+        "node_modules/@angular/common"
+      ],
+      "rxjs/*": [
+        "node_modules/rxjs/*"
+      ]
+    },
+    "rootDir": "staging",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5",
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "types": [
+      "jasmine"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "staging/index.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "example"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  }
+}

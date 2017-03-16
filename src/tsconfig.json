@@ -1,0 +1,28 @@
+{
+  "__comment": "This is only used by IDE to avoid tsc errors",
+  "compilerOptions": {
+    "baseUrl": "../",
+    "declaration": true,
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "rootDir": "../",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5",
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "types": [
+      "jasmine"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  }
+}

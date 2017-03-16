@@ -1,0 +1,5 @@
+<label class="switch switch-flat">
+	<input class="switch-input" type="checkbox" [checked]="value" (change)="onToggle()"/>
+	<span class="switch-label" [attr.data-on]="onText" [attr.data-off]="offText" [style.border-color]="color" [style.color]="color"></span> 
+	<span class="switch-handle" [style.background]="color"></span> 
+</label>
