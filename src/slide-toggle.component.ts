@@ -12,12 +12,12 @@ export class SlideToggleComponent implements OnInit {
   @Input() onText = 'ON';
   @Input() offText = 'OFF';
   @Input() onColor = '#0088cc';
-  @Input() offColor = '#aaaaaa';
   @Input() value = false;
 
   @Output() valueChange = new EventEmitter<boolean>();
 
   color: string;
+  offColor = '#eceeef';
 
   ngOnInit() {
     this.setColor();

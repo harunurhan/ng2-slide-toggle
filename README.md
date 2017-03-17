@@ -33,7 +33,6 @@ import { SlideToggleModule } from 'ng2-slide-toggle';
   @Input() onText = 'ON';
   @Input() offText = 'OFF';
   @Input() onColor = '#0088cc';
-  @Input() offColor = '#aaaaaa';
   @Input() value = false;
 
   @Output() valueChange = new EventEmitter<boolean>();
